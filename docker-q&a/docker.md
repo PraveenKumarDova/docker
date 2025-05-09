@@ -4,7 +4,7 @@ Top 20 Docker Scenario-Based Interview Questions (Enhanced for 4+ Years Experien
 
 In one of our dev environments, a Node.js container was stuck in a crash loop. Using `docker ps -a`, I found the container kept exiting with code 1. I ran `docker logs <container_id>` and identified the error — it was due to a missing environment variable. I fixed the variable in the Docker Compose file, restarted the service, and the container stabilized. This type of issue is common when configuration isn't validated before deployment. We later added a pre-deployment config check script to catch such issues earlier.
 
-![Crash Loop Explained](images/Container-keeps-restarting.png)
+![Crash Loop Explained](images/container-keeps-restarting.png)
 
 ## 2. Docker container not able to access the internet – what will you check?
 
