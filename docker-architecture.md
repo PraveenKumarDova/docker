@@ -1,6 +1,6 @@
 # 🐳 Docker Architecture Overview
 
-![Docker Architecture](A_diagram_illustrating_Docker_architecture_and_wor.png)
+![Docker Architecture](diagrams/docker-arch.png)
 
 ---
 
