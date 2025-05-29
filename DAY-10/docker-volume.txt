@@ -7,9 +7,9 @@ Before Docker volumes
 =====================
 --> Diagram
 
---> Before docker volumes we can store the data in the docker container file system, But If my container crashed or removed then our data will be lossed
+--> Before docker volumes we can store the data in the docker container file system, But If my container crashed or removed then our data will be lost.
 
---> To overcome this problem we are going for a docker volumes
+--> To overcome this problem we are going for  docker volume
 
 
 What is Docker volume?
